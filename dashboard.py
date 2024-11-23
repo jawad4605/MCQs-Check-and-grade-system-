@@ -41,7 +41,7 @@ def load_data():
         st.stop()
 
 st.set_page_config(
-    page_title="IMCQ Item Evaluation Tool",
+    page_title="Test MMCQs Evaluation Tool",
     page_icon="img/icon.svg",
     layout="centered",
     initial_sidebar_state="expanded",
@@ -65,9 +65,9 @@ def reset_state():
 
 initial_state()
 
-st.image("img/pencil_and_test.png", use_container_width=True)
+st.image("img\MCQ Item Evaluation Tool.png", use_container_width=True)
 
-"# Test MCQ Item Evaluation Tool"
+"# Test MCQs Evaluation Tool"
 
 with st.sidebar:
     "## About 👩🏻‍💻"
@@ -122,7 +122,7 @@ report, help = st.tabs(["Report","Help"])
 with help:
     with st.expander(label="Can I see a demonstration?"):
         """
-        Click one of the "Load Sample" buttons in the sidebar to see the MCQ Item Evaluation Tool in action, applied to a sample exam.
+        Click one of the "Load Sample" buttons in the sidebar to see the Test MMCQs Evaluation Tool in action, applied to a sample exam.
         """
     with st.expander(label="How should the input file be formatted?"):
         """
