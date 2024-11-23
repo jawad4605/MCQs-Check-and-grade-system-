@@ -65,7 +65,7 @@ def reset_state():
 
 initial_state()
 
-st.image("img\MCQ Item Evaluation Tool.png", use_container_width=True)
+st.image("img/MCQ Item Evaluation Tool.png", use_container_width=True)
 
 "# Test MCQs Evaluation Tool"
 
